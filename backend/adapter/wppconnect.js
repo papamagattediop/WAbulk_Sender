@@ -32,15 +32,6 @@ export const connect = async (mode = "qr", phoneNumber = null) => {
     disableWelcome : true,
     logQR          : false,
     folderNameToken: path.join(__dirname, "../tokens"),
-    puppeteerOptions: {
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-gpu",
-        "--single-process",
-      ],
-    },
 
     statusFind: (status) => {
       console.log("[WPPConnect] Status :", status);
