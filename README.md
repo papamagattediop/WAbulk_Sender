@@ -93,9 +93,9 @@ Le fichier doit contenir au minimum les colonnes `nom` et `numero` :
 
 ```csv
 nom,numero
-Moussa Diop,221785411482
-Fatou Ndiaye,221772345678
-Aminata Fall,221769123456
+Moussa Diop,221785411XX2
+Fatou Ndiaye,2217723XXX78
+Aminata Fall,2217691XXX56
 ```
 
 Colonnes acceptées pour le nom : `nom`, `name`, `prenom`, `prénom`
